@@ -6,7 +6,7 @@ const todos = require('./routes/todos');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const expressLogging = require('express-logging');
-const log = require('loglevel-message-prefix')(require('loglevel'), {
+const log = require('@natlibfi/loglevel-message-prefix')(require('loglevel'), {
   prefixes: ['timestamp', 'level'],
 });
 

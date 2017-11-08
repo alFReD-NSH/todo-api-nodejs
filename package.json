@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/alFReD-NSH/todo-api-nodejs#readme",
   "dependencies": {
+    "@natlibfi/loglevel-message-prefix": "github:olindata/loglevel-message-prefix#965751b",
     "body-parser": "^1.18.2",
     "dotenv": "^4.0.0",
     "eslint": "^4.10.0",
@@ -32,7 +33,6 @@
     "express-logging": "^1.1.1",
     "express-promise-router": "^2.0.0",
     "loglevel": "^1.5.1",
-    "loglevel-message-prefix": "github:olindata/loglevel-message-prefix#965751b",
     "mongoose": "^4.13.0",
     "mongoose-to-swagger": "0.0.2",
     "supertest": "^3.0.0",
