@@ -5,6 +5,16 @@ const todoSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  priority: {
+    type: Number,
+    default: 0,
+  },
+  due: Date,
+  completed: {
+    type: Boolean,
+    default: false,
+  },
+  assignee: String,
 });
 
 module.exports = mongoose.model('Todo', todoSchema);
